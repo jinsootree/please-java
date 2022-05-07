@@ -12,7 +12,7 @@ public class CannedBeer {
             System.out.printf("%d세, 캔맥주 구매 가능\n" , age);
         }
         else {
-            System.out.printf("%d세, 캔맥주 구매 불가\n" , age);
+            System.out.printf("%d세, 캔맥주 구매 불가" , age);
         }
     }
 }
