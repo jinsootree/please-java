@@ -1,4 +1,4 @@
-package ex4_1;
+package ex4;
 
 public class CannedBeer {
     public static void main(String[] args) {
