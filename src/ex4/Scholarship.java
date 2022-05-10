@@ -8,6 +8,7 @@ public class Scholarship {
     }
 
     //이름과 수학 및 영어 점수를 입력받아, 장학금 수령 여부를 출력
+    
     public static void printScholarship(String name, int math, int eng){
         String result = "";
 
