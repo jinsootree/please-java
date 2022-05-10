@@ -8,6 +8,13 @@ public class Leapyear {
     }
     //연도를 입력받아, 윤년 여부를 반환하는 메소드
     public static boolean isLeapyear(int year){
-        return true;
-    }
+boolean result = false;
+if ( year % 4 == 0){
+    result =  true;
+if ( year % 100 == 0){
+        result = false;
+}    
+}   
+return result;
+}
 }
