@@ -1,4 +1,4 @@
-package ex4;
+package ex4_Conditional;
 
 public class TrafficLight {
     public static void main(String[] args) {

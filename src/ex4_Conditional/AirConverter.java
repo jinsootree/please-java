@@ -1,4 +1,4 @@
-package ex4_Conditional Statements;
+package ex4_Conditional;
 
 public class AirConverter {
     public static void main(String[] args) {
