@@ -7,14 +7,6 @@
     <list default="true" id="136d1bdc-e21c-4e73-9ee2-8ebbd18855f9" name="변경" comment="&quot;greetings&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/AirConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/AirConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/CannedBeer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/CannedBeer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/Leapyear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/Leapyear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/OddOrEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/OddOrEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/RareItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/RareItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/Scholarship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/Scholarship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex4_Conditional/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4_Conditional/TrafficLight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +46,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.OddOrEven">
-    <configuration name="AirConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex4_Conditional.AirConverter" />
-      <module name="Please-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex4_Conditional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CannedBeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex4.CannedBeer" />
-      <module name="Please-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex4_Conditional.CannedBeer">
     <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex4.Grade" />
       <module name="Please-java" />
@@ -109,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex4_Conditional.CannedBeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex4_Conditional.CannedBeer" />
+      <module name="Please-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex4_Conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex4_Conditional.Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex4_Conditional.Grade" />
       <module name="Please-java" />
@@ -122,20 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld" />
+      <module name="Please-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="애플리케이션.AirConverter" />
-      <item itemvalue="애플리케이션.CannedBeer" />
-      <item itemvalue="애플리케이션.ex4_Conditional.Grade" />
-      <item itemvalue="애플리케이션.Grade" />
-      <item itemvalue="애플리케이션.OddOrEven" />
+      <item itemvalue="Application.Grade" />
+      <item itemvalue="Application.OddOrEven" />
+      <item itemvalue="Application.ex4_Conditional.CannedBeer" />
+      <item itemvalue="Application.ex4_Conditional.Grade" />
+      <item itemvalue="Application.helloworld" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.OddOrEven" />
-        <item itemvalue="애플리케이션.ex4_Conditional.Grade" />
-        <item itemvalue="애플리케이션.Grade" />
-        <item itemvalue="애플리케이션.CannedBeer" />
-        <item itemvalue="애플리케이션.AirConverter" />
+        <item itemvalue="Application.ex4_Conditional.CannedBeer" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +172,11 @@
           <url>file://$PROJECT_DIR$/src/Greetings.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex4_Conditional/CannedBeer.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
