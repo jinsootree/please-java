@@ -10,6 +10,5 @@ public class Salary {
     }
 public static void printSalary(int wage, int bounus){
 
-    System.out.printf("");
 }    
 }
