@@ -11,11 +11,11 @@ public class BusCard {
 public static void printRole(int age){
     String role = "";
 
-    if (age >= 22){
+    if (age >= 18){
         role = "성인";
-    } else if (age >= 16){
+    } else if (age >= 13){
         role = "청소년";
-    } else if (age >= 10){
+    } else if (age >= 6){
         role = "어린이";
     } else {
         role = "유아";
