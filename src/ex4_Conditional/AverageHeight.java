@@ -10,10 +10,11 @@ public class AverageHeight {
     }
 
     public static void test(double height, boolean isMale) {
+        //변수 생성
         String gender = "";
         String result = "";
     
-    
+    //조건 처리
     if (isMale) {
         gender =  "남성";
         if (height >= 173.5) { 
@@ -29,7 +30,7 @@ public class AverageHeight {
             result = "이하";
         }
     }
-
+//결과 출력
     System.out.printf("%.1fcm, %s => 평균 키 %s\n", height, gender, result);
 }
 }
