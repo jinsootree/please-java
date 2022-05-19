@@ -2,9 +2,8 @@ package ex4_Conditional;
 
 public class Leapyear {
     public static void main(String[] args) {
-        System.out.printf("2020년은 윤년입니까? %b\n", isLeapyear(2020));
-        System.out.printf("1900년은 윤년입니까? %b\n", isLeapyear(1900));
-        System.out.printf("2000년은 윤년입니까? %b\n", isLeapyear(2000));
+       int input =  Integer.parseInt(args[0]); // 입력값 받기
+       Boolean ouput = isLeapyear(input); // 윤년여부 계산
     }
 
     // 연도를 입력받아, 윤년 여부를 반환하는 메소드
