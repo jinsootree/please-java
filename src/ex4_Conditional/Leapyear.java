@@ -3,7 +3,7 @@ package ex4_Conditional;
 public class Leapyear {
     public static void main(String[] args) {
        
-       int input =  Integer.parseInt("1988"); // 입력값 받기
+       int input = 1988; // 입력값 받기 
        Boolean output = isLeapyear(input); // 윤년여부 계산
        System.out.printf("%d년은 윤년입니까? %s", input, output);
     }
