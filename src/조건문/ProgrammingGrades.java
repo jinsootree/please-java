@@ -1,4 +1,4 @@
-package ex4_Conditional;
+package 조건문;
 
 public class ProgrammingGrades {
     public static void main(String[] args) {
