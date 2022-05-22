@@ -1,4 +1,4 @@
-package method;
+package 메소드;
 
 public class whatiswrong {
     public static void main(String[] args) {

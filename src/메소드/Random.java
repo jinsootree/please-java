@@ -1,4 +1,4 @@
-package method;
+package 메소드;
 
 public class Random {
     public static void main(String[] args) {
