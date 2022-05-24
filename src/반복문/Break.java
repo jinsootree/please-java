@@ -14,8 +14,8 @@ public class Break {
         //총합 계산
         for(int i = start; i <= end; i++){
             System.out.printf("%d", i);
-
             sum += i ;
+            
          // 마지막 숫자라면 아래의 내용을 수행하지 않고 탈출
             if(i == end){
                 break;
