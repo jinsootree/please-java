@@ -2,7 +2,7 @@ package 배열;
 
 public class toCharArray {
     public static void main(String[] args) {
-        String str = "programming is fun";
+        String str = "programming is fun. is it Right?";
         char [] charArr = str.toCharArray();
         int count = 0;  
         
@@ -10,8 +10,9 @@ public class toCharArray {
             if (charArr[i] == 'R' || charArr[i] == 'r') {
                 count ++;
             }
-        } System.out.println(str);
-System.out.printf("=> R(r)의 개수: %d", count);
+        } 
+          System.out.println(str);
+          System.out.printf("=> R(r)의 개수: %d", count);
 
     }
    
