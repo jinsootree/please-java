@@ -1,4 +1,4 @@
-package 배열
+package 배열;
 public class  SimpleMerge {
         public static void main(String[] args) {
             int[] evens = {0,2,4,6,8};
