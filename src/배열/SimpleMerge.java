@@ -3,7 +3,7 @@ public class  SimpleMerge {
         public static void main(String[] args) {
             int[] evens = {0,2,4,6,8};
             int[] odds = {1,3,5,7,9,};
-            int[] result = SimpleMerge(evens,odds);
+            int[] result = SimpleMerge1(evens,odds);
 
             System.out.printf("결과: ");
             for (int i = 0; i < result.length; i++){
@@ -11,7 +11,7 @@ public class  SimpleMerge {
             }
         }
 
-        public static int[] SimpleMerge (int[] a, int[] b){
+        public static int[] SimpleMerge1 (int[] a, int[] b){
             int[] arr = new int[a.length + b.length];
             for (int i = 0; i < arr.length; i++){
                 if (i%2 ==0){
