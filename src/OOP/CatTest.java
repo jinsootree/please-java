@@ -26,6 +26,6 @@ class Cat{
     }
 
     void meow(){
-        System.out.println("야옹");
+        System.out.println("야옹1");
     }
 }

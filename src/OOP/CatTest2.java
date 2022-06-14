@@ -2,8 +2,8 @@ package OOP;
 
 public class CatTest2 {
     public static void main(String[] args) {
-        Cat cat1 = new Cat();
-        Cat cat2 = new Cat();
+        Cat2 cat1 = new Cat2();
+        Cat2 cat2 = new Cat2();
 
     //메소드 호출
     
@@ -17,7 +17,7 @@ public class CatTest2 {
     }
     //cat 클래스
 
-    class Cat{
+    class Cat2{
 
     //필드(상태)
 
