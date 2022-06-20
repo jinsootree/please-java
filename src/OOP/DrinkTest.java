@@ -19,6 +19,8 @@ class Drink {
     String name;
     int price;
 
+    // 디폴트 생성자 추가
+
     Drink () {}
 
     Drink(String n, int p) {
