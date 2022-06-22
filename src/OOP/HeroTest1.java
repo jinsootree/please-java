@@ -25,11 +25,10 @@ class Hero1 {
     }
 
     void punch(Hero1 enemy) {
-        System.out.printf(" [%s]의 펀치", name);
+        System.out.printf("[%s]의 펀치~ ", name);
 
-        System.out.printf("%s의 체력: %d -> ", enemy.name, enemy.hp);
         enemy.hp -= 10;
-        System.out.printf("%d\n ", enemy.hp);
+        System.out.printf("-> %s의 체력 : %d\n ", enemy.name, enemy.hp);
 
 
 
