@@ -22,7 +22,7 @@ Player [] Players = {P0, P1, P2};
 // 출력
         
         for (int i = 0; i < Players.length; i++) {
-        Players [i].printTotalhours();
+        Players [i].printTotalPoints();
         }
 
     }
@@ -39,11 +39,11 @@ class Player {
         Scoures = arr;
     }
 
-    void printTotalhours() {
-        System.out.printf("총 획득 점수 { %s -> %d점 } \n", name, totalHours());
+    void printTotalPoints() {
+        System.out.printf("총 획득 점수 { %s -> %d점 } \n", name, totalPoints());
     }
 
-    int totalHours() {
+    int totalPoints() {
         int sum = 0;
         for (int i = 0; i < Scoures.length; i++) {
             sum += Scoures[i];
