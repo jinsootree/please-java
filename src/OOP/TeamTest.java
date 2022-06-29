@@ -5,18 +5,18 @@ public class TeamTest {
         
 //객체 생성
 
-        Player kim = new Player("김땡땡", new int[] {9,8,10});
-        Player lee = new Player("이땡땡", new int[] {10,9,10});
-        Player park = new Player("박땡땡", new int[] {8,10,9});
+        Player1 kim = new Player1("김땡땡", new int[] {9,8,10});
+        Player1 lee = new Player1("이땡땡", new int[] {10,9,10});
+        Player1 park = new Player1("박땡땡", new int[] {8,10,9});
 
-        Player xi = new Player("xiao", new int[] {10,9,10});
-        Player yu = new Player("yu", new int[] {8,9,10});
-        Player xui = new Player("xui", new int[] {9,9,10});
+        Player1 xi = new Player1("xiao", new int[] {10,9,10});
+        Player1 yu = new Player1("yu", new int[] {8,9,10});
+        Player1 xui = new Player1("xui", new int[] {9,9,10});
       
 
 //객체 배열 생성
-Player [] koreaPlayers = {kim, lee, park};
-Player [] chinaPlayers = {xi, yu, xui};
+Player1 [] koreaPlayers = {kim, lee, park};
+Player1 [] chinaPlayers = {xi, yu, xui};
 
 //팀 객체 생성
 Team korea = new Team("대한민국", koreaPlayers);
@@ -31,12 +31,12 @@ Team china = new Team("중국", chinaPlayers);
     }
 }
 
-class Player {
+class Player1 {
 
     String name;
     int [] Scoures;
 
-    Player (String str, int [] arr ) {
+    Player1 (String str, int [] arr ) {
 
         name = str;
         Scoures = arr;
@@ -57,9 +57,9 @@ class Player {
 
 class Team {
     String nation;
-    Player [] players;
+    Player1 [] players;
 
-    Team (String str, Player[] arr) {
+    Team (String str, Player1 [] arr) {
         nation = str;
         players = arr;
     }
