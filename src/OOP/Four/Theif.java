@@ -18,7 +18,8 @@ public class Theif {
 }
 class Wallet {
   // 필드(인스턴스 변수)
-  private int money;
+  /*private* private을 사용하면 money는 public이 아닌 private이기 때문에 접근할 수 없다.*/
+  int money;
   // 생성자
   public Wallet(int i) {
     money = i;
