@@ -2,9 +2,9 @@ package OOP.Four;
 
 public class WebtoonTest {
     public static void main(String[] args) {
-        Webtoon levelup = new Webtoon("나 혼자만 레벨업", "판타지", "추공");
-        Webtoon sweethouse = new Webtoon("스위트 홈", "스릴러", "칸비");
-        Webtoon iteawoonclass = new Webtoon("이태원 클래스", "드라마", "광진");
+        Webtoon levelup = new Webtoon("이끼", "스릴러", "윤태호");
+        Webtoon sweethouse = new Webtoon("송곳", "현실 비판", "최규석");
+        Webtoon iteawoonclass = new Webtoon("용비불패", "무협", "류기운");
 
         Webtoon[] webtoons = { levelup, sweethouse, iteawoonclass};
         for (int i = 0; i < webtoons.length; i++) {
