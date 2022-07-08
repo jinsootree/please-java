@@ -1,4 +1,4 @@
-package OOP.Four;
+package OOP.Eight;
 
 public class Theif {
   // 메인 메소드

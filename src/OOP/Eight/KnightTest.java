@@ -1,4 +1,4 @@
-package OOP.Four;
+package OOP.Eight;
 public class KnightTest {
 
     public static void main(String[] args) {
