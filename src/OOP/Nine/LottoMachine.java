@@ -17,7 +17,7 @@ public class LottoMachine {
     for (int i = 0; i < pickedNum.length; i++) {
       pickedNum[i] = list.remove(0);
     }
-    // 결과 출력
+    // 결과 출력.
     System.out.printf("자동 생성 번호: %s", Arrays.toString(pickedNum));
   }
 }
