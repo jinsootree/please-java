@@ -7,9 +7,8 @@ public class AnimalTest {
       // 필드 초기화
       dog.name = "포메라니안";
       dog.age = 7;
-      dog.price = 22000000;
       // 정보 출력
-      System.out.printf("Pet { name: %s, age: %d세, price: %d원 }", dog.name, dog.age, dog.price);
+      System.out.printf("Pet { name: %s, age: %d세, price: %d원 }", dog.name, dog.age);
     }
   }
   class Animal {
@@ -20,7 +19,6 @@ public class AnimalTest {
   }
   class Pet extends Animal {
     int age;     // 나이
-    int price;   // 가격
     public void play() {
       System.out.println("애완 동물이 장난을 칩니다~");
     }
