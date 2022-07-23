@@ -8,7 +8,7 @@ public class Greetings {
     public static void main(String[] args) {
         //3 문자열 출력
         System.out.println("안녕 반가워");
-        System.out.println("나는 냥이라고해");
+        System.out.println("나는 진수라고해");
         System.out.println("잘 부탁할게!");
     }
 }
