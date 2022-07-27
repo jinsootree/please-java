@@ -22,6 +22,7 @@ public class HolyKnightTest {
   class HolyKnight implements Tanker, Healer {
     private String name;
     private int hp;
+    
     public HolyKnight(String name, int hp) {
       this.name = name;
       this.hp = hp;
