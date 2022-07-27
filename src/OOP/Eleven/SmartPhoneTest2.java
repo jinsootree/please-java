@@ -15,7 +15,7 @@ public class SmartPhoneTest2 {
     public void playMusic(String title); // 음악 재생
   }
   class SmartPhone implements Alarm {
-    private String name; // 모델명
+    public String name; // 모델명
     public SmartPhone(String name) {
       this.name = name;
     }
