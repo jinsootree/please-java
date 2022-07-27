@@ -1,9 +1,9 @@
 package OOP.Eleven;
 
-public class SmartPhoneTest {
+public class PhoneTest {
     public static void main(String[] args) {
       // 객체 생성
-      SmartPhone sp = new SmartPhone("아이폰", "010-0000-0000");
+      IPhone sp = new IPhone("아이폰", "010-0000-0000");
   
       // 전화 걸기
       sp.call("010-1234-5678");
@@ -22,11 +22,11 @@ public class SmartPhoneTest {
   }
   
   //구현체 클래스
-  class SmartPhone implements Phone {
+  class IPhone implements Phone {
     protected String name;
     protected String phoneNumber;
     
-    public SmartPhone(String name, String phoneNumber) {
+    public IPhone(String name, String phoneNumber) {
       this.name = name;
       this.phoneNumber = phoneNumber;
     }
