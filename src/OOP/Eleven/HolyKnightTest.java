@@ -20,9 +20,9 @@ public class HolyKnightTest {
   }
   /* 1. 탱커와 힐러 역할을 부여. */
   class HolyKnight implements Tanker, Healer {
-    private String name;
-    private int hp;
-    
+    protected String name;
+    protected int hp;
+
     public HolyKnight(String name, int hp) {
       this.name = name;
       this.hp = hp;
