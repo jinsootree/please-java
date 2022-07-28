@@ -12,8 +12,8 @@ public class RandomTest {
     
     //변수 생성 및 주사위 100번 던지기
     for (int i=0; i<100; i++){
-     int a = DieA.roll();
-     int b = DieB.roll();
+     int a = DieB.roll();
+     int b = DieC.roll();
      counts[a+b]++;
     }
     
@@ -33,7 +33,7 @@ public class RandomTest {
   }
 }
 
-class DieA {
+class DieB {
   // 1 부터 6사이 정수를 반환 
   public static int roll() {
     double r = Math.random() * 6; // 0.0 <= r < 6.0
@@ -42,7 +42,7 @@ class DieA {
   }
 }
 
-class DieB {
+class DieC {
   public static int roll() {
     // 1 부터 6사이 정수를 반환 
     Random rand = new Random();
